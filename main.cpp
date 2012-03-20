@@ -11,7 +11,7 @@ void Draw() {
 }
 
 void Initsialaize() {
-    glClearColor(1.0, 0.0, 1.0, 1.0);
+    glClearColor(1.0, 1.0, 1.0, 1.0);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     glOrtho(-200.0, 200.0, -200.0, 200.0, -5.0, 5.0);
